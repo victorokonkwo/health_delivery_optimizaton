@@ -24,3 +24,10 @@ Provide step-by-step instructions on how to install the Conda environment from t
    ```bash
    conda activate pyomo_env
    ```
+3. The app.py shows a flask web app of the demand prediction model
+4. The explainer.py shows the model explainability endpoint.
+   ```bash
+      python explainer.py
+   ```
+5. The optimizer.py in the resource allocation folder was implemented from this [paper](https://www.mdpi.com/2571-5577/6/5/78), though still in development because the mathematical model was too complex for pyomo usin gurobi free license.
+   
