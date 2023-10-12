@@ -1,0 +1,5 @@
+{ "input_folder_path": "sourcedata",
+     "output_folder_path": "data",
+      "test_data_path": "data",
+       "output_model_path": "models",
+        "prod_deployment_path": "production_deployment"}
