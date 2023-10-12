@@ -13,7 +13,7 @@ Optimizing Health care delivery
 
 Provide step-by-step instructions on how to install the Conda environment from the `environment.yml` file.
 
-### Clone the Repository
+### Overview
 
 1. First, clone the repository to your local machine using Git
 2. Create conda environment from environment.yml
@@ -30,5 +30,9 @@ Provide step-by-step instructions on how to install the Conda environment from t
    ```bash
       python explainer.py
    ```
-6. The optimizer.py in the resource allocation folder was implemented from this [paper](https://www.mdpi.com/2571-5577/6/5/78), though still in development because the mathematical model was too complex for pyomo usin gurobi free license.
-   
+6. The optimizer.py in the resource allocation folder was implemented from this [paper](https://www.mdpi.com/2571-5577/6/5/78), though still in development because the mathematical model was too complex for pyomo using gurobi free license and also adding the demand prediction as a constaint to optimize the resource allocation.
+7. The optimizer gives the optimal parameters for minimizing resource allocation.
+9. There is a lot that needs to be done in improving the model accuracy and streamling the model pipline end to end.
+10. Unit testing and Integration testing needs to be completed.
+11. Model Tracking and Experimentation using MLFlow or KubeFlow.
+12. Model Deployment on AWS
